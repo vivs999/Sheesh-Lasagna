@@ -12,13 +12,11 @@
 	"type": "module",
 	"scripts": {
 		"start": "node scripts/start.js"
+		"build": "[my-framework] build --output public"
+  }
+}
 		
 	},
-	{
-  "scripts": {
-    "build": "[my-framework] build --output public"
-  }
-},
 	"engines": {
 		"npm": ">=7.0.0",
 		"node": ">=18.0.0"
